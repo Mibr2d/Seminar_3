@@ -11,10 +11,10 @@ int Promt(string message)
     Console.Write($"{message}");
     return Convert.ToInt32(Console.ReadLine());
 }
-int x1 = Promt("Введите кординату х1 первой точки");
-int y1 = Promt("Введите кординату y1 первой точки");
-int x2 = Promt("Введите кординату x2 первой точки");
-int y2 = Promt("Введите кординату у2 первой точки");
+int x1 = Promt("Введите кординату х1  ");
+int y1 = Promt("Введите кординату y1  ");
+int x2 = Promt("Введите кординату x2  ");
+int y2 = Promt("Введите кординату у2  ");
 
 double Distance(double x1, double x2, double y1, double y2)
 {
