@@ -26,5 +26,13 @@ string GetQuorter(int quorter)
 
 }
 int quorter = Promt("Введите номер четверти");
-string result = GetQuorter(quorter);
-System.Console.WriteLine(result);
+if (quorter > 4 || quorter < 1)
+{
+    System.Console.WriteLine("Введен некорректный номер четверти ");
+}
+else
+{
+    string result = GetQuorter(quorter);
+    System.Console.WriteLine(result);
+
+}
