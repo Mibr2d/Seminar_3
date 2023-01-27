@@ -28,7 +28,7 @@ int Reverse(int number1)//Ввел функцию для поиска обрат
 int numberA = Reverse(number);//ввожу переменную в которую ложу обратное число
 if (number == numberA)//сравниваю первый вариант и обратный
 {
-    System.Console.WriteLine("Палиндром");
+    System.Console.WriteLine("Палиндром"); //результат
 }
 else
 {
