@@ -14,11 +14,11 @@ int Promt(string message)//Ввел функцию для того чтобы п
     Console.Write($"{message}");
     return Convert.ToInt32(Console.ReadLine());
 }
-int number = Promt("Введите число");
+int number = Promt("Введите число ");
 int Reverse(int number1)//Ввел функцию для поиска обратного числа
 {
     int reverse = 0;// ввожу переменную куда буду сохранять результат
-    while (number1 > 0)//задаю условие выхожа из цикла
+    while (number1 > 0)//задаю условие выхода из цикла
     {
         reverse=reverse * 10 + number1 % 10;//присваиваю значение переменной.Делю на разряды
         number1 /= 10;
