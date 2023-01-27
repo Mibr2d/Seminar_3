@@ -11,10 +11,9 @@ int Promt(string message)
     return Convert.ToInt32(Console.ReadLine());
 }
 int number = Promt("Введите число");
-int i=1;
-while(i<=number)
+
+for (int i = 1; i <= number; i++)
 {
-    double cub = Math.Pow(i,3);
-    System.Console.WriteLine($"Куб числа {i} от 1 до введенного равен "+cub);
-    i++;
+    double cub = Math.Pow(i, 3);
+    System.Console.WriteLine($"Куб числа {i} от 1 до введенного равен " + cub);
 }
